@@ -1,0 +1,49 @@
+/* MIX */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+    color:#5F6380;
+}
+/* header */
+header{
+    margin-bottom: 80px;
+}
+.logo{
+    width:100px;
+    height:50px;
+}
+.logo img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.top-header{
+    display:flex;
+    
+}
+.top-header h1 a{
+    
+    font-size:  24px; 
+}
+nav{
+    padding: 0 10px;
+}
+.bottom-header nav ul{
+    display:flex;
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #a2a5bb;
+}
+.bottom-header nav ul li{
+    margin-right: 30px;
+    font-size:16px;
+    font-weight: bold;
+}

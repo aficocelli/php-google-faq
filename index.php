@@ -62,8 +62,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- /google font -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+        <div class="top-header">
+            <div class="logo">
+                <a href="">
+                    <img src="img/logo.png" alt="logo">
+                </a>    
+            </div>
+            <h1><a href="">Privacy e termini</a></h1>
+        </div>
+        <div class="bottom-header">
+            <nav>
+                <ul>
+                    <li><a href="">Introduzione</a></li>
+                    <li><a href="">Norme sulla privacy</a></li>
+                    <li><a href="">Termini di servizio</a></li>
+                    <li><a href="">Tecnologie</a></li>
+                    <li><a href="">Domande frequenti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
    <?php 
         //ciclo per stampare domande e risposte
         foreach($faq as $item){
