@@ -90,12 +90,16 @@
             </nav>
         </div>
     </header>
-   <?php 
-        //ciclo per stampare domande e risposte
-        foreach($faq as $item){
-            echo "<h2>".$item["question"]."</h2>";
-            echo "<p>".$item["answer"]."</p>";
-        }
-   ?>
+    <main>
+        <div class="box">
+        <?php 
+            //ciclo per stampare domande e risposte
+            foreach($faq as $item){
+                echo "<h2>".$item["question"]."</h2>";
+                echo "<p>".$item["answer"]."</p>";
+            }
+        ?>
+    </div>
+   </main>
 </body>
 </html>
